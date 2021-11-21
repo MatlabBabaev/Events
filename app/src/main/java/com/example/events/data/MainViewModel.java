@@ -45,6 +45,7 @@ public class MainViewModel extends AndroidViewModel {
         new InsertTask().execute(event);
     }
 
+    //method GetEventTask
     private static class GetEventTask extends AsyncTask<Integer, Void, Event> {
         @Override
         protected Event doInBackground(Integer... integers) {
